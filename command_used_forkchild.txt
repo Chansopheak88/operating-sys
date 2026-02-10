@@ -1,0 +1,15 @@
+  162  cd wildcard_lab
+  163  ls
+  164  cp *.txt ../backup
+  165  cp ??? ../backup
+  166  cp ???.txt ../backup
+  167  cd ..
+  168  ls
+  169  mkdir class_activity2
+  170  cd class_activity2
+  171  nano forkchild.c
+  172  gcc -o forkchild forkchild.c
+  173  nano forkchild.c
+  174  gcc -o forkchild forkchild.c
+  175  ./forkchild > result_forkchild.txt
+  176  history | tail -n 15 > command_used_forkchild.txt
